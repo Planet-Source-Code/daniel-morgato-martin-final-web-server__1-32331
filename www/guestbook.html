@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Guestbook</TITLE>
+<STYLE>A:link {
+	COLOR: red; FONT: 8pt/11pt verdana; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: red; FONT: 8pt/11pt verdana; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; FONT: 8pt/11pt verdana; TEXT-DECORATION: underline
+}
+</STYLE>
+
+<META content="text-html; charset=Windows-1252" http-equiv=Content-Type>
+<META content="Microsoft FrontPage 4.0" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<P><FONT face="Verdana, Arial, Helvetica, sans-serif" size=2><B><FONT 
+color=#ff0000>Add comment to guestbook...</FONT></B></FONT><BR>
+</P>
+<FORM action=http://$ip/guestbook; method=post>
+<P><FONT size=2><B>Name: </B></FONT><INPUT name=Name size="31"></P>
+<P><FONT size=2><B>E-Mail: <INPUT name=E-Mail size="30"></B></FONT> 
+<P><FONT size=2><B>Comment:</B></FONT><BR><TEXTAREA cols=30 name=Comment rows=4></TEXTAREA> 
+
+<P><INPUT name=btnSubmit type=submit value=Submit><INPUT name=btnClear type=reset value=Clear> 
+</FORM>
+</BODY></HTML>
