@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Guestbook</TITLE>
+<STYLE>A:link {
+	COLOR: red; FONT: 8pt/11pt verdana; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: red; FONT: 8pt/11pt verdana; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; FONT: 8pt/11pt verdana; TEXT-DECORATION: underline
+}
+</STYLE>
+
+<META content="text-html; charset=Windows-1252" http-equiv=Content-Type>
+<META content="Microsoft FrontPage 4.0" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<P><font color="#ff0000" face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>Send
+someone a mail</b></font><FONT face="Verdana, Arial, Helvetica, sans-serif" size=2><B><FONT 
+color=#ff0000>...</FONT></B></FONT><BR>
+</P>
+<FORM action=http://$ip/mail; method=post>
+<P style="margin-top: 0; margin-bottom: 0"><FONT size=2><B>From: </B></FONT><INPUT name=MAILFROM size="64"></P>
+<P style="margin-top: 0; margin-bottom: 0"><FONT size=2><B>To: <INPUT name=RCPTTO size="66"></B></FONT> 
+<P style="margin-top: 0; margin-bottom: 0"><font size="2"><b>Subject: <INPUT name=SUBJECT size="62"></b></font> 
+<P><FONT size=2><B>Comment:</B></FONT><BR><TEXTAREA cols=59 name=MAILDATA rows=9></TEXTAREA> 
+
+<P><INPUT name=btnSubmit type=submit value=Send><INPUT name=btnClear type=reset value=Clear> 
+</FORM>
+</BODY></HTML>

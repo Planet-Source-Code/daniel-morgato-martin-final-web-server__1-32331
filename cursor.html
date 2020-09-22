@@ -1,0 +1,509 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0063)http://support.microsoft.com/default.aspx?scid=kb;EN-US;q267849 -->
+<HTML><HEAD><TITLE>PRB: Using Color Cursors in a Visual Basic Application</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type><!-- (c) 2001, Microsoft Corporation. All Rights Reserved --><!-- ASM: GSS, Version=3.0.32.0, Culture=neutral, PublicKeyToken=null FW: 1.0.3427.0 --><!-- REGC: ISO-8859-1 DEFRC: iso-8859-1 RESG: 1/10/2002 8:22:13 AM RESX: 1/10/2002 8:22:23 AM -->
+<META 
+content="Microsoft, product, support, software, hardware, FAQ, FAQs, KB, Knowledge, Base, search, downloads, chat, help, training, phone, troubleshooters, newsgroups" 
+name=Keywords>
+<META 
+content="Microsoft Global Product Support Site, featuring access to a searchable Knowledgebase, Software and Hardware FAQs (Frequently Asked Questions), Online Training, Webcasts, Downloads, HTML Newsgroup views, Telephone Support Information, Online Support Requests and Personalization, Online Assistance, Remote Administration, Hot Issues, Support Center" 
+name=Description>
+<SCRIPT 
+language=Javascript>
+var g_gssCookieDomain = "support.microsoft.com";
+</SCRIPT>
+
+<SCRIPT language=Javascript src="cursor_arquivos/gssmethods.js"></SCRIPT>
+<LINK href="cursor_arquivos/style-msie4.css" rel=stylesheet 
+type=text/css></LINK><!-- CC: ISO-8859-1 EFFRC: iso-8859-1 -->
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff leftMargin=0 topMargin=0 marginwidth="0" 
+marginheight="0"><IMG border=0 height=0 hspace=0 
+src="cursor_arquivos/trans_pixel.gif" style="DISPLAY: none" width=0> 
+<TABLE border=0 cellPadding=0 cellSpacing=0 height="100%" width="100%">
+  <TBODY>
+  <TR>
+    <TD class=noprint colSpan=2 height=60>
+      <DIV id=tbspacer style="DISPLAY: none"><IMG height=60 
+      src="cursor_arquivos/1ptrans.gif" width=1></DIV>
+      <DIV id=tbdownlevel>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD bgColor=#003399 rowSpan=2><A 
+            href="http://support.microsoft.com/default.aspx" target=_top><IMG 
+            alt="Microsoft Home" border=0 height=60 hspace=0 
+            src="cursor_arquivos/banner.gif" width=300></A></TD>
+          <TD align=right bgColor=#003399 height=20 vAlign=top width="100%">
+            <TABLE border=0 cellPadding=0 cellSpacing=0>
+              <TBODY>
+              <TR>
+                <TD><IMG alt="" border=0 height=20 
+                  src="cursor_arquivos/curve_003399.gif" width=18></TD>
+                <TD bgColor=#000000 height=20 vAlign=center><FONT 
+                  color=#ffffff face="Verdana, Arial" size=1>&nbsp;&nbsp;<A 
+                  class=bartext 
+                  href="http://support.microsoft.com/isapi/gomscom.asp?target=/catalog/default.asp?subid=1" 
+                  target=_top><FONT color=#ffffff> 
+                  Produtos</FONT></A>&nbsp;&nbsp; |&nbsp;&nbsp;<A class=bartext 
+                  href="http://support.microsoft.com/isapi/gomscom.asp?target=/brasil/suporte/" 
+                  target=_top><FONT color=#ffffff> 
+                  Suporte</FONT></A>&nbsp;&nbsp; |&nbsp;&nbsp;<A class=bartext 
+                  href="http://support.microsoft.com/isapi/gosearch.asp?target=/brasil/" 
+                  target=_top><FONT color=#ffffff> 
+                  Pesquisa</FONT></A>&nbsp;&nbsp; |&nbsp;&nbsp;<A class=bartext 
+                  href="http://support.microsoft.com/isapi/gomscom.asp?target=/brasil/" 
+                  target=_top><FONT color=#ffffff> Guia 
+                  microsoft.com/Brasil</FONT></A>&nbsp;&nbsp; 
+              </FONT></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD align=right bgColor=#3366cc height=40><A 
+            href="http://www.microsoft.com/"><IMG alt="" border=0 hspace=0 
+            src="cursor_arquivos/mslogo_3366CC.gif"></A></TD></TR></TBODY></TABLE></DIV>
+    <TD></TD>
+  <TR>
+    <TD class=noprint colSpan=2 height=18 width="100%">
+      <TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=bannerborder-top><IMG height=2 
+            src="cursor_arquivos/1ptrans.gif" width=1></TD>
+          <TD class=bannerborder-top><IMG height=2 
+            src="cursor_arquivos/1ptrans.gif" width=1></TD></TR>
+        <TR>
+          <TD class=barblack>
+            <TABLE border=0 cellPadding=0 cellSpacing=0 class=funcmenutbl 
+            height=18>
+              <TBODY>
+              <TR>
+                <TD class=buttonleft noWrap 
+                onclick="top.location.href='/default.aspx'" 
+                onmouseout='this.style.backgroundColor = "";this.style.cursor="default";' 
+                onmouseover='this.style.backgroundColor = "#3366CC";this.style.cursor="hand";'><A 
+                  class=bartext href="http://support.microsoft.com/default.aspx" 
+                  title="Return to Support Home Page">&nbsp;&nbsp;Home&nbsp;&nbsp;</A></TD>
+                <TD class=bannerborder width=1><IMG height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=1></TD>
+                <TD class=buttonleft noWrap 
+                onclick="top.location.href='/default.aspx?scid=fh;PT-BR;kbinfo'" 
+                onmouseout='this.style.backgroundColor = "";this.style.cursor="default";' 
+                onmouseover='this.style.backgroundColor = "#3366CC";this.style.cursor="hand";'><A 
+                  class=bartext 
+                  href="http://support.microsoft.com/default.aspx?scid=fh;PT-BR;kbinfo" 
+                  title="Search the Knowledge Base">&nbsp;&nbsp;Search&nbsp;&nbsp;</A></TD>
+                <TD class=bannerborder width=1><IMG height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=1></TD>
+                <TD class=buttonleft noWrap 
+                onclick="top.location.href='/default.aspx?scid=/faqs/default.aspx'" 
+                onmouseout='this.style.backgroundColor = "";this.style.cursor="default";' 
+                onmouseover='this.style.backgroundColor = "#3366CC";this.style.cursor="hand";'><A 
+                  class=bartext 
+                  href="http://support.microsoft.com/default.aspx?scid=/faqs/default.aspx" 
+                  title="View Frequently Asked Questions">&nbsp;&nbsp;FAQs&nbsp;&nbsp;</A></TD>
+                <TD class=bannerborder width=1><IMG height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=1></TD>
+                <TD class=buttonleft noWrap 
+                onclick="top.location.href='/default.aspx?scid=fh;PT-BR;downloadover'" 
+                onmouseout='this.style.backgroundColor = "";this.style.cursor="default";' 
+                onmouseover='this.style.backgroundColor = "#3366CC";this.style.cursor="hand";'><A 
+                  class=bartext 
+                  href="http://support.microsoft.com/default.aspx?scid=fh;PT-BR;downloadover" 
+                  title="Software Updates and Service Packs">&nbsp;&nbsp;Downloads&nbsp;&nbsp;</A></TD>
+                <TD class=bannerborder width=1><IMG height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=1></TD>
+                <TD class=buttonleft noWrap 
+                onclick="top.location.href='/newsgroups/default.aspx'" 
+                onmouseout='this.style.backgroundColor = "";this.style.cursor="default";' 
+                onmouseover='this.style.backgroundColor = "#3366CC";this.style.cursor="hand";'><A 
+                  class=bartext 
+                  href="http://support.microsoft.com/newsgroups/default.aspx" 
+                  title="Community support forums">&nbsp;&nbsp;Newsgroups&nbsp;&nbsp;</A></TD>
+                <TD class=bannerborder width=1><IMG height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=1></TD>
+                <TD class=buttonleft noWrap 
+                onclick="top.location.href='/default.aspx?scid=fh;PT-BR;CNTACT'" 
+                onmouseout='this.style.backgroundColor = "";this.style.cursor="default";' 
+                onmouseover='this.style.backgroundColor = "#3366CC";this.style.cursor="hand";'><A 
+                  class=bartext 
+                  href="http://support.microsoft.com/default.aspx?scid=fh;PT-BR;CNTACT" 
+                  title="Provide feedback to Microsoft">&nbsp;&nbsp;Contact 
+                  Us&nbsp;&nbsp;</A></TD>
+                <TD class=bannerborder width=1><IMG height=1 
+                  src="cursor_arquivos/1ptrans.gif" 
+          width=1></TD></TR></TBODY></TABLE></TD>
+          <TD align=right class=barblack>
+            <TABLE border=0 cellPadding=0 cellSpacing=0 class=funcmenutbl>
+              <TBODY>
+              <TR>
+                <TD class=bannerborder width=1><IMG height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=1></TD>
+                <TD class=buttonright 
+                onmouseout='this.style.backgroundColor = "";this.style.cursor="default";' 
+                onmouseover='this.style.backgroundColor = "#3366CC";this.style.cursor="hand";'>
+                  <TABLE border=0 cellPadding=0 cellSpacing=0>
+                    <TBODY>
+                    <TR>
+                      <TD onclick="">&nbsp;&nbsp;</TD>
+                      <TD><A class=buttontext 
+                        href="mailto:?body=http://support.microsoft.com/default.aspx?scid=kb;EN-US;q267849" 
+                        onclick="" 
+                        title="Send the contents of this page to a Friend">Send</A></TD>
+                      <TD onclick="">&nbsp;</TD>
+                      <TD onclick=""><IMG border=0 hspace=0 
+                        src="cursor_arquivos/send_icon.gif"></TD>
+                      <TD onclick="">&nbsp;&nbsp;</TD></TR></TBODY></TABLE></TD>
+                <TD class=bannerborder width=1><IMG height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=1></TD>
+                <TD class=buttonright 
+                onmouseout='this.style.backgroundColor = "";this.style.cursor="default";' 
+                onmouseover='this.style.backgroundColor = "#3366CC";this.style.cursor="hand";'>
+                  <TABLE border=0 cellPadding=0 cellSpacing=0>
+                    <TBODY>
+                    <TR>
+                      <TD 
+                      onclick="if(document.getElementById) PrintContents(); else window.print(); event.cancelBubble=true; return false;">&nbsp;&nbsp;</TD>
+                      <TD><A class=buttontext 
+                        href="http://support.microsoft.com/default.aspx?scid=kb;EN-US;q267849#" 
+                        onclick="if(document.getElementById) PrintContents(); else window.print(); event.cancelBubble=true; return false;" 
+                        title="Print the contents of this page">Print</A></TD>
+                      <TD 
+                      onclick="if(document.getElementById) PrintContents(); else window.print(); event.cancelBubble=true; return false;">&nbsp;</TD>
+                      <TD 
+                      onclick="if(document.getElementById) PrintContents(); else window.print(); event.cancelBubble=true; return false;"><IMG 
+                        border=0 hspace=0 
+                      src="cursor_arquivos/print_icon.gif"></TD>
+                      <TD 
+                      onclick="if(document.getElementById) PrintContents(); else window.print(); event.cancelBubble=true; return false;">&nbsp;&nbsp;</TD></TR></TBODY></TABLE></TD>
+                <TD class=bannerborder width=1><IMG height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=1></TD>
+                <TD class=buttonright 
+                onmouseout='this.style.backgroundColor = "";this.style.cursor="default";' 
+                onmouseover='this.style.backgroundColor = "#3366CC";this.style.cursor="hand";'>
+                  <TABLE border=0 cellPadding=0 cellSpacing=0>
+                    <TBODY>
+                    <TR>
+                      <TD onclick="">&nbsp;&nbsp;</TD>
+                      <TD><A class=buttontext 
+                        href="http://support.microsoft.com/default.aspx?scid=fh;PT-BR;GSSHELP" 
+                        onclick="" 
+                        title="View information on how to use this site effectively">Help</A></TD>
+                      <TD onclick="">&nbsp;</TD>
+                      <TD onclick=""><IMG border=0 hspace=0 
+                        src="cursor_arquivos/help_icon.gif"></TD>
+                      <TD 
+              onclick="">&nbsp;&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><IFRAME 
+            height=10 id=printframe name=printframe 
+            src="cursor_arquivos/Blank.htm" 
+            style="DISPLAY: none; LEFT: 0px; POSITION: absolute; TOP: 0px; VISIBILITY: hidden" 
+            width=10></IFRAME></TD></TR>
+        <TR>
+          <TD class=bannerborder-bottom><IMG height=2 
+            src="cursor_arquivos/1ptrans.gif" width=1></TD>
+          <TD class=bannerborder-bottom><IMG height=2 
+            src="cursor_arquivos/1ptrans.gif" width=1></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=noprint width=10><IMG height=1 src="cursor_arquivos/1ptrans.gif" 
+      width=10></TD>
+    <TD vAlign=top width="100%"><BR>
+      <CENTER><NOLEFTNAV xmlns:user="urn:user-scripts" 
+      xmlns:msxsl="urn:schemas-microsoft-com:xslt" 
+      xmlns:kbns="urn:schemas-microsoft-com/PSS/KBXML">
+      <TABLE border=0 cellPadding=5 cellSpacing=0 width="95%">
+        <TBODY>
+        <TR>
+          <TD vAlign=top><FONT face="Verdana, Arial, Helvetica" size=2><!-- - - - - - - - - - - PAGE TEXT BEGINS BELOW HERE - - - - - - - - - - --><BR>
+            <H3>PRB: Using Color Cursors in a Visual Basic Application 
+            <SPAN>(Q267849)</SPAN></H3>
+            <HR>
+            The information in this article applies to:<BR><BR>
+            <UL style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+              <LI style="PADDING-BOTTOM: 2px; PADDING-TOP: 0px">Microsoft Visual 
+              Basic Professional Edition for Windows, version 6.0 </LI></UL>
+            <UL style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+              <LI style="PADDING-BOTTOM: 2px; PADDING-TOP: 0px">Microsoft Visual 
+              Basic Enterprise Edition for Windows, version 6.0 </LI></UL><BR>
+            <HR>
+            <BR>
+            <H3>SYMPTOMS</H3>
+            <P>When you use a color cursor for a form's MousePointer, it appears 
+            in black and white rather than in color. </P><BR>
+            <H3>CAUSE</H3>
+            <P>Visual Basic does not provide any support for color cursors and, 
+            therefore, a color cursor cannot be used while running in the Visual 
+            Basic IDE. However, a color cursor can be used in compiled Visual 
+            Basic applications. Please see the "More Information" section for 
+            details. </P><BR>
+            <H3>RESOLUTION</H3>
+            <P>There are two ways to get color cursors in the compiled 
+            application: 
+            <UL>
+              <LI>You can use Icons instead of actual cursors. These display in 
+              color, but the Hot Spot is always at the center of the image and 
+              you cannot change it. <BR><BR>
+              <LI>The best solution is to use the <B>LoadResPicture </B>function 
+              to load the color cursor(s) from a Resource file. This way the 
+              Operating System provides the support and the colors do appear 
+              when running the compiled application. </LI></UL>
+            <P></P><BR>
+            <H3>STATUS</H3>
+            <P>This behavior is by design. </P><BR>
+            <H3>MORE INFORMATION</H3>
+            <P>The Resource file can be created with the Visual Basic 6.0 
+            Resource Editor Add-In, and the cursor files can be created with the 
+            ImagEdit.exe tool included with Visual Basic 6.0. The ImagEdit.exe 
+            tool is located on Disk1 of Visual Basic or Disk3 of Microsoft 
+            Visual Studio in the following folder: <PRE class=kbpre>   \Common\Tools\Vb\Imagedit</PRE>This tool also 
+            allows you to set the Hot Spot for the cursor, which determines the 
+            exact point of the image for purposes of clicking, MouseOver event, 
+            and so forth. When you have the cursor file open, you should have an 
+            icon that looks like an arrow with lines emanating from the tip in 
+            the lower-right of the Toolbox. When you click on this icon to 
+            select it and then click on the image where you want the hot spot to 
+            be, you see the coordinates listed in the Toolbar where it says 
+            "Hotspot." 
+            <H3>Step-by-Step Example of Loading Color Cursors from a Resource 
+            File </H3>
+            <OL>
+              <LI>Start a <B>Standard EXE </B>project in Visual Basic. Form1 is 
+              created by default. <BR><BR>
+              <LI>On the <B>Add-Ins </B>menu, click to select <B>Add-In Manager 
+              </B>. From the list of Add-Ins, click to select <B>VB 6 Resource 
+              Editor </B>, check <B>Loaded/Unloaded </B>in the lower-right of 
+              the dialog box, and then click <B>OK </B>. <BR><BR>
+              <LI>On the <B>Project </B>menu, click to select <B>Add New 
+              Resource File </B>. In the <B>Open </B>dialog box, type 
+              <B>ColorCursors.res </B>for FileName, and then click <B>OK </B>. 
+              Click <B>OK </B>again on the dialog box that asks to create this 
+              file. <BR><BR>
+              <LI>On the <B>Properties </B>window, expand Related Documents, and 
+              double-click on <B>ColorCursors.res </B>to open the file in the 
+              Resource Editor. <BR><BR>
+              <LI>On the Toolbar, click on the button that looks like an arrow 
+              pointer over an hourglass (the Tooltip displays <B>Add cursor 
+              </B>...) <BR><BR>
+              <LI>In the <B>Open </B>dialog box, navigate to the <B>Cursors 
+              </B>folder and select a color cursor. By default, Visual Basic 
+              creates this folder at this location: 
+              <BLOCKQUOTE>C:\Program Files\Microsoft Visual 
+                Studio\Common\Graphics\Cursors\ </BLOCKQUOTE>If you are unable to 
+              locate this folder it is probably because these graphics were not 
+              installed. Either use four other cursors, create four cursors 
+              using the ImagEdit.exe tool, or follow instructions in "Steps to 
+              Install the Visual Studio Graphics Files" later. <BR><BR>
+              <LI>Add three more color cursors in this same way. Note that these 
+              are numbered 101 - 104 in the editor. This is the Resource ID. 
+              Close the <B>Editor </B>window. <BR><BR>
+              <LI>Add a <B>CommandButton </B>control to Form1. <BR><BR>
+              <LI>Place the following code into the code window of Form1: 
+              <BR><BR><PRE class=kbcode>Option Explicit
+
+Dim ResID As Integer
+
+Private Sub Command1_Click()
+    If ResID = 104 Then   ' last cursor
+        ResID = 101   ' start over
+    Else
+        ResID = ResID + 1
+    End If
+    Me.MouseIcon = LoadResPicture(ResID, vbResCursor)
+End Sub
+
+Private Sub Form_Load()
+    Me.MousePointer = vbCustom
+    ResID = 100   ' Starting value. We add 1 right away before it is used.
+End Sub</PRE>
+              <LI>Save and compile the project. <BR><BR>
+              <LI>Press the F5 key to run the project. Each time you click on 
+              Command1, the cursor changes, but it is always monochrome (black 
+              and white.) <BR><BR>
+              <LI>Start the Windows Explorer and run the .exe file. Again, each 
+              time you click on Command1, the cursor changes, but the cursors 
+              now display in their proper colors. <BR><BR></LI></OL>
+            <H3>Steps to install the Visual Studio Graphics files </H3>
+            <OL>
+              <LI>Make sure that Visual Basic is not running. On the <B>Start 
+              </B>menu, locate <B>Settings </B>, select <B>Control Panel </B>, 
+              and then double-click on <B>Add/Remove Programs </B>. <BR><BR>
+              <LI>Select your product from the list. It will either be Microsoft 
+              Visual Studio 6.0 or Microsoft Visual Basic 6.0 (Professional or 
+              Enterprise). Click on the <B>Add/Remove Programs </B>button. 
+              <BR><BR>
+              <LI>From the <B>Setup Maintenance </B>window, click on the 
+              <B>Add/Remove Programs </B>button. <BR><BR>
+              <LI>Select <B>Graphics </B>from the list of Options, and press 
+              either <B>Continue </B>or <B>Change Option </B>to select only the 
+              types of graphics you want to install. Click <B>OK </B>. Click 
+              <B>Continue </B>and follow the instructions on the screen. 
+              <BR><BR>The ...\Cursors folder should now be available. </LI></OL>
+            <P></P><BR>
+            <H3>REFERENCES</H3>
+            <P>For additional information, click the article numbers below to 
+            view the articles in the Microsoft Knowledge Base: 
+            <BLOCKQUOTE><A class=kblink 
+              href="http://support.microsoft.com/default.aspx?scid=kb;en-us;Q138529">Q138529</A> 
+              PRB: Visual Basic 4.0 Does Not Support Color Cursor Files 
+            </BLOCKQUOTE>
+            <BLOCKQUOTE><A class=kblink 
+              href="http://support.microsoft.com/default.aspx?scid=kb;en-us;Q194409">Q194409</A> 
+              RESFILE.EXE Stores Any File Type in a Resource File 
+            </BLOCKQUOTE>MSDN Help topic: "Anatomy of a Resource Block" from 
+            <I>Hardcore Visual Basic </I>. 
+            <P></P>
+            <HR>
+
+            <TABLE border=0 cellPadding=3 cellSpacing=1 width="95%">
+              <TBODY>
+              <TR>
+                <TD align=right vAlign=top width="10%" N0WRAP="1"><FONT size=1 
+                  NAME="Verdana, Arial, Helvetica"><B>Published</B></FONT></TD>
+                <TD><FONT size=1 NAME="Verdana, Arial, Helvetica">Jul 12 2000 
+                  2:12PM </FONT></TD>
+                <TD align=right noWrap vAlign=top width="10%"><FONT size=1 
+                  NAME="Verdana, Arial, Helvetica"><B>Issue Type</B></FONT></TD>
+                <TD><FONT size=1 NAME="Verdana, Arial, Helvetica">kbprb 
+                </FONT></TD></TR>
+              <TR>
+                <TD align=right noWrap vAlign=top width="10%"><FONT size=1 
+                  NAME="Verdana, Arial, Helvetica"><B>Last Modifed</B></FONT></TD>
+                <TD><FONT size=1 NAME="Verdana, Arial, Helvetica">Oct 30 2001 
+                  11:02AM </FONT></TD>
+                <TD align=right noWrap vAlign=top width="10%"><FONT size=1 
+                  NAME="Verdana, Arial, Helvetica"><B>Additional Query 
+                  Words</B></FONT></TD>
+                <TD><FONT size=1 
+NAME="Verdana, Arial, Helvetica"></FONT></TD></TR>
+              <TR>
+                <TD align=right vAlign=top width="10%" HOWRAP="1"><FONT size=1 
+                  NAME="Verdana, Arial, Helvetica"><B>Keywords</B></FONT></TD>
+                <TD colSpan=3><FONT size=1 
+                  NAME="Verdana, Arial, Helvetica">_IK920 kbAddIn kbColor 
+                  kbCursor kbVBp kbVBp600 kbGrpDSVB kbDSupport 
+              </FONT></TD></TR></TBODY></TABLE>
+            <HR>
+
+            <H3>COMMENTS?</H3>
+            <CENTER>
+            <FORM action=/support/contentvoting/voting_idc.asp method=post 
+            name=VOTED onsubmit="return votingsubmit();">
+            <TABLE border=0 cellPadding=0 cellSpacing=0 width="95%">
+              <TBODY>
+              <TR>
+                <TD colSpan=2 vAlign=top><INPUT name=KBID type=hidden 
+                  value=267849></INPUT><INPUT name=PROD type=hidden 
+                  value=vbwin></INPUT><INPUT name=KBAREA type=hidden 
+                  value="Support; KB;vbwin"></INPUT><INPUT name=SRV type=hidden 
+                  value=support.microsoft.com></INPUT><INPUT name=QS type=hidden 
+                  value=scid=kb;en-us;Q267849></INPUT><INPUT name=URL 
+                  type=hidden value=/default.aspx></INPUT><INPUT name=VOTE 
+                  type=hidden value=1></INPUT>
+                  <P>If you would like to briefly comment on this article, you 
+                  can enter your remarks in the space below (up to 255 
+                  characters).</P><TEXTAREA cols=40 id=COMMENTS name=COMMENTS rows=5 style="FONT-SIZE: x-small; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal; LINE-HEIGHT: normal; WIDTH: 90%" wrap=virtual></TEXTAREA>
+                  <SCRIPT language=JavaScript>
+				function votingsubmit()
+				{
+					if(document.VOTED.COMMENTS.value.length == 0) {
+						alert("Please enter your remarks in the space provided.");
+						return false;
+					}
+					if(document.VOTED.COMMENTS.value.length > 255){
+						alert("Your comment has exceeded the 255 character limit.\nPlease reduce the number of characters in your comment.");
+						document.forms[0].COMMENTS.focus();
+						return false;}
+					else{
+					VOTED.submit();
+					return true;}
+				}
+				</SCRIPT>
+                  <BR></TD></TR>
+              <TR>
+                <TD align=right noWrap><A 
+                  href="http://support.microsoft.com/default.aspx?scid=kb;EN-US;q267849#" 
+                  onclick="votingsubmit();return false;"><B>Submit 
+                  Comments</B></A></TD>
+                <TD align=left width="10%"><INPUT align=absMiddle alt=Submit 
+                  border=0 hspace=12 src="cursor_arquivos/goright.gif" 
+                  type=image></TD></TR></TBODY></TABLE></FORM></CENTER><!-- - - - - - - - - - - - PAGE TEXT ENDS ABOVE HERE - - - - - - - - - - - --></FONT><BR></TD></TR></TBODY></TABLE></CENTER></TD></TR>
+  <TR>
+    <TD bgColor=#003399 colSpan=2 height=40 vAlign=center width="100%" 
+    cellpadding="4">
+      <TABLE border=0 cellPadding=6 cellSpacing=0 height=40 width="100%">
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE border=0 cellPadding=0 cellSpacing=0 class=ftrmenutbl>
+              <TBODY>
+              <TR>
+                <TD><A class=buttontext 
+                  href="mailto:?body=http://support.microsoft.com/default.aspx?scid=kb;EN-US;q267849" 
+                  onclick="" target=_top 
+                  title="Send the contents of this page to a Friend">Send&nbsp;<IMG 
+                  align=absMiddle border=0 hspace=0 
+                  src="cursor_arquivos/send_icon.gif"><IMG border=0 height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=4></A></TD>
+                <TD vAlign=top><FONT class=buttontext>|</FONT>&nbsp;</TD>
+                <TD><A class=buttontext href="http://support.microsoft.com/" 
+                  onclick="if(document.getElementById) PrintContents(); else window.print(); event.cancelBubble=true; return false;" 
+                  target=_top 
+                  title="Print the contents of this page">Print&nbsp;<IMG 
+                  align=absMiddle border=0 hspace=0 
+                  src="cursor_arquivos/print_icon.gif"><IMG border=0 height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=4></A></TD>
+                <TD vAlign=top><FONT class=buttontext>|</FONT>&nbsp;</TD>
+                <TD><A class=buttontext 
+                  href="http://support.microsoft.com/default.aspx?scid=fh;PT-BR;GSSHELP" 
+                  onclick="" target=_top 
+                  title="View information on how to use this site effectively">Help&nbsp;<IMG 
+                  align=absMiddle border=0 hspace=0 
+                  src="cursor_arquivos/help_icon.gif"><IMG border=0 height=1 
+                  src="cursor_arquivos/1ptrans.gif" width=4></A></TD>
+              <TR></TR></TBODY></TABLE><FONT class=cpyrigthtxt>&nbsp;<A 
+            class=cpyrigthtxt 
+            href="http://support.microsoft.com/default.aspx?scid=%2fisapi%2fgomscom.asp%3ftarget%3d%2fbrasil%2fmisc%2fcpyright.htm" 
+            target=_top>Microsoft Corporation. Todos os direitos reservados. 
+            Nota legal.</A>&nbsp;&nbsp;<A class=cpyrigthtxt 
+            href="http://support.microsoft.com/default.aspx?scid=%2fisapi%2fgomscom.asp%3ftarget%3d%2finfo%2fprivacy.htm" 
+            target=_top>Política de Privacidade</A>&nbsp;&nbsp;<A 
+            class=cpyrigthtxt 
+            href="http://support.microsoft.com/default.aspx?scid=%2fisapi%2fgomscom.asp%3ftarget%3d%2fenable%2ftelecomm.htm" 
+            target=_top>Disability/accessiblity</A>&nbsp;</FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><SPAN 
+class=noprint>
+<SCRIPT language=javascript src="cursor_arquivos/toolbar.js"></SCRIPT>
+
+<SCRIPT language=javascript src="cursor_arquivos/global.js"></SCRIPT>
+
+<SCRIPT language=javascript>
+<!--
+var ToolBar_Supported = ToolBar_Supported;
+if(ToolBar_Supported != null && ToolBar_Supported == true){
+	Frame_Supported = false;
+	setToolbarBGColor("#3366CC");
+	setICPBanner("/library/images/support/PT-BR/banner.gif","/default.aspx","Return to Support home page");
+	setMSBanner("mslogo_3366CC.gif","/isapi/gomscom.asp?target=/Brazil","Microsoft.com Home Page")
+}
+//--></SCRIPT>
+
+<DIV id=TBContainer 
+style="HEIGHT: 60px; LEFT: 0px; POSITION: absolute; TOP: 0px; WIDTH: 100%">
+<SCRIPT language=JavaScript>
+<!--
+var ToolBar_Supported = ToolBar_Supported;	
+if (ToolBar_Supported != null && ToolBar_Supported == true)
+{
+	HTMLStr = HTMLStr.replace(/\/library\/toolbar\/images\/curve.gif/g, "/library/images/support/curve_003399.gif")
+	drawToolbar();
+	if(document.getElementById) {
+		var el = document.getElementById('tbdownlevel');
+		if(el != null && typeof(el) != "undefined") {
+			el.style.display = 'none';
+			document.getElementById('tbspacer').style.display = '';
+		}
+	}
+	else if(document.all){
+		document.all.tbspacer.style.display = '';
+		document.all.tbdownlevel.style.display = 'none';
+	}
+}
+//-->
+</SCRIPT>
+</DIV><!-- Evaluated for "MISC" Survey --></SPAN></BODY></HTML>
